@@ -39,7 +39,6 @@ transition: opacity 0.15s linear;
  * content
  */
 #content{
-text-shadow: 1px 1px 1px white;
 padding: 30px 0px;
 margin-top:80px;
 position: relative;
@@ -169,7 +168,6 @@ width:20%;
 
 /*module*/
 .module {
-padding: 15px;
 background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAB50RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNS4xqx9I6wAAABZ0RVh0Q3JlYXRpb24gVGltZQAwMS8yMS8xMRTK2QYAAABYSURBVGiB7c8BDQAhEMCw45XhXxUmSL4hq4JtzcyeB3x/B9zSiKYRTSOaRjSNaBrRNKJpRNOIphFNI5pGNI1oGtE0omlE04imEU0jmkY0jWga0TSiaURzAKKlAKRWtxKCAAAAAElFTkSuQmCC) 0 0 repeat;
 position: relative;
 }
@@ -227,4 +225,23 @@ padding: 0px 1px 0px 0px;
 margin-top: -4px;
 line-height: 1.5em;
 margin: 0;
+}
+
+/**
+FORM
+*/
+input[type="text"], input[type="submit"], textarea {
+	box-shadow: none;
+	border: none;
+	margin: 0 auto;
+	border-radius: 0px;
+	background: rgba(0, 0, 0, 0.1);
+	border-color: rgba(0, 0, 0, 0.1);
+	vertical-align: middle;
+	padding: 5px 6px 5px 6px;
+	margin-bottom: 10px;
+}
+.submit {
+	width: auto;
+	color: #00ACEE;
 }
